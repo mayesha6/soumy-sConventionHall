@@ -46,11 +46,11 @@
                     start question section
     =================================================
 */
-.question{
+.question, .moment-img{
     width:50%;
     margin-right:5%;
 }
-.ques-img{
+.ques-img, .moment-txt{
     width:45%;
 }
 .accordion-button:not(.collapsed) {
