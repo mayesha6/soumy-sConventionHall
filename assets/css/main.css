@@ -47,10 +47,14 @@
     =================================================
 */
 .accordion-button:not(.collapsed) {
-    color: #0c63e4;
+    color: #000;
     background-color: transparent;
-    box-shadow: 0;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0);
 }
+.item {
+    border: 1px solid #0c0a1c;
+}
+
 /*
     =================================================
                     end question section
