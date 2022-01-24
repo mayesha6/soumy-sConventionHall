@@ -46,6 +46,13 @@
                     start question section
     =================================================
 */
+.question{
+    width:50%;
+    margin-right:5%;
+}
+.ques-img{
+    width:45%;
+}
 .accordion-button:not(.collapsed) {
     color: #000;
     background-color: transparent;
@@ -54,6 +61,7 @@
 .item {
     border: 1px solid #0c0a1c;
 }
+
 
 /*
     =================================================

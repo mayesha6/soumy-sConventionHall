@@ -2,4 +2,27 @@
   .carousel  img {
     height: 340px;
   }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .copyright {
+    order: 2;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .question-content {
+    flex-direction: column;
+  }
+  .question {
+    order: 2;
+    width:100%;
+    margin:0;
+  }
+  .ques-img {
+    order: 1;
+    width:100%;
+    margin-bottom:40px;
+  }
+  
 }
